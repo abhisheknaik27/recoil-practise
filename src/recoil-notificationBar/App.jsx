@@ -23,7 +23,7 @@ const ThemeBar = () => {
   const notificationCount = useRecoilValue(notificationAtom);
 
   const totalNotificationCount = useRecoilValue(totalNotification);
-  
+
   //USEMEMO HOOK ->
   //   const totalNotificationCount = useMemo(() => {
   //     return (
@@ -38,6 +38,7 @@ const ThemeBar = () => {
   //     messagingNotificationCount,
   //     notificationCount,
   //   ]);
+
   return (
     <div>
       <button>Home</button>
